@@ -159,11 +159,11 @@ Para depurar a função Lambda, você pode utilizar as seguintes técnicas:
 
 ## CODIGO ABAIXO
 
-import http.client
-import json
+    import http.client
+    import json
 
-def lambda_handler(event, context):
-    conn = http.client.HTTPSConnection("fnbr.co")
+    def lambda_handler(event, context):
+        conn = http.client.HTTPSConnection("fnbr.co")
 
     headers = {
         "x-api-key": "CODIGO E SECRETO!!!!!!!"
