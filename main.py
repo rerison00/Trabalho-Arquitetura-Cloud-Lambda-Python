@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     conn = http.client.HTTPSConnection("fnbr.co")
 
     headers = {
-        "x-api-key": "1c8636d8-0a6c-40e3-a711-802b90074b3c"
+        "x-api-key": "CODIGO SECRETO!!!!"
     }
     conn.request("GET", "/api/shop", headers=headers)
 
