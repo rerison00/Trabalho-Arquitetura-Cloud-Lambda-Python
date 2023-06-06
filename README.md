@@ -33,9 +33,9 @@ Para executar esta função Lambda, siga as instruções abaixo:
 
 3. Certifique-se de que as dependências externas (`http.client` e `json`) estejam disponíveis no ambiente.
 
-4. Fornecer a chave de API correta para a variável `x-api-key` no cabeçalho da requisição.
+4. Fornecer a chave de API correta (Não será fornecida a chave por questões de segurança) para a variável `x-api-key` no cabeçalho da requisição.
 
-5. Configure o ambiente para invocar a função Lambda em resposta a um evento específico, se necessário.
+5. Configure o ambiente para chamar a função Lambda em resposta a um evento específico, se necessário.
 
 6. Salve e publique a função Lambda.
 
@@ -59,7 +59,7 @@ Para depurar a função Lambda, você pode utilizar as seguintes técnicas:
 
 ## O Que esperar do retorno do json
 
-1. O Json retorna a loja do jogo Fortnite, trazendo todos os itens que estao a venda no dia, um exemplo a baixo do retorno dele
+1. O Json retorna a loja do jogo Fortnite, trazendo todos os itens que estão a venda no dia, um exemplo abaixo do retorno dele
 
 "status": 200,
   "data": {
@@ -154,4 +154,4 @@ Para depurar a função Lambda, você pode utilizar as seguintes técnicas:
         }
       },
       
-      Ele traz o ID do item a venda, o preco dele, o nome, a raridade do item (Skin), e uma breve descricao do mesmo, traz as imagens do itens como tambem o simbolo da moeda do jogo, e traz tambem todas as datas que o item apareceu na loja do jogo.
+      Ele traz o ID do item a venda, o preço dele, o nome, a raridade do item (Skin), e uma breve descrição do mesmo, traz as imagens do itens como também o simbolo da moeda do jogo, e traz também todas as datas que o item apareceu na loja do jogo.
